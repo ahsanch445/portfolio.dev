@@ -5,7 +5,16 @@
 :root {
   --header-height: 3rem;
 
-  /*======= Colors =======*/
+  /*======= Colors ====@media (max-width: 768px) {
+  .home__blob {
+
+    width: 290px;
+  height: 300px;
+   margin-left: 3vw;
+    fill: var(--first-color);
+    /* fill: hsl(69, 69%, 61%); */
+  }
+===*/
   /* Change Favorite color */
   --hue-color: 240;
 
