@@ -311,9 +311,9 @@ height: 310px;
 @media (max-width: 768px) {
   .home__blob {
 
-    width: 200px;
+    width: 240px;
   height: 300px;
-   margin-left: 0vw;
+   margin-left: 1.5vw;
     fill: var(--first-color);
     /* fill: hsl(69, 69%, 61%); */
   }
