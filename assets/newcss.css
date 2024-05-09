@@ -5,16 +5,7 @@
 :root {
   --header-height: 3rem;
 
-  /*======= Colors ====@media (max-width: 768px) {
-  .home__blob {
-
-    width: 290px;
-  height: 300px;
-   margin-left: 3vw;
-    fill: var(--first-color);
-    /* fill: hsl(69, 69%, 61%); */
-  }
-===*/
+  /*======= Colors =======*/
   /* Change Favorite color */
   --hue-color: 240;
 
@@ -204,6 +195,7 @@ img {
   color: var(--first-color);
 }
 @media screen and (max-width: 767px) {
+ 
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -317,6 +309,15 @@ height: 310px;
 }
 
 @media (max-width: 768px) {
+  .home__blob {
+
+    width: 290px;
+  height: 300px;
+   margin-left: 3vw;
+    fill: var(--first-color);
+    /* fill: hsl(69, 69%, 61%); */
+  }
+
   .home__data {
     width: 250px;
     grid-column: 1/3;
